@@ -10,9 +10,8 @@
 <p *ngFor="let x of array_one">
 <span *ngIf="x!='sangam'">
 {{x}}
-
-
-</span>
-
+</span></p>
+<p *ngFor="let y of array_two">
+<span *ngIf="y.name=='srlnp'" class="text text-danger">{{y|json}}</span>
 
 </p>
