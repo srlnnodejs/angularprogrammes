@@ -1,8 +1,18 @@
 {{title}}
-<h1>name</h1>
+<!--<h1>name</h1>
 <input type="text" name="uname" [(ngModel)]="uname">
 <div *ngIf='uname!=null && uname!="unll"'>
 <h1>upwd</h1>
 <input type="text" name="upwd" [(ngModel)]="upwd">
 </div>
 <h1>if user name will enter only user password will shows</h1>
+-->
+<p *ngFor="let x of array_one">
+<span *ngIf="x!='sangam'">
+{{x}}
+
+
+</span>
+
+
+</p>
