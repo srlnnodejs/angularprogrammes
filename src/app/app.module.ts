@@ -11,10 +11,14 @@ import { MangoComponent } from './mango/mango.component';
 import { OrangeComponent } from './orange/orange.component';
 import { LimeComponent } from './lime/lime.component';
 import { PineappleComponent } from './pineapple/pineapple.component';
-import { TomatoComponent } from './tomato/tomato.component'
+import { TomatoComponent } from './tomato/tomato.component';
+import { LimesComponent } from './limes/limes.component';
+import { TomatosComponent } from './tomatos/tomatos.component';
+import { PotatosComponent } from './potatos/potatos.component';
+import { SweettomatosComponent } from './sweettomatos/sweettomatos.component'
 @NgModule({
   declarations: [
-    AppComponent,NgIf, AppleComponent, MarketComponent, BadabazarComponent, MangoComponent, OrangeComponent, LimeComponent, PineappleComponent, TomatoComponent
+    AppComponent,NgIf, AppleComponent, MarketComponent, BadabazarComponent, MangoComponent, OrangeComponent, LimeComponent, PineappleComponent, TomatoComponent, LimesComponent, TomatosComponent, PotatosComponent, SweettomatosComponent
   ],
   imports: [
     BrowserModule,
